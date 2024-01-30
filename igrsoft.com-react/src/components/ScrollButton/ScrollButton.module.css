@@ -1,0 +1,27 @@
+.hidden {
+    display: none;
+}
+
+.visible {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 11;
+    height: 40px;
+    width: 40px;
+    background: #fdcc3e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.visible:hover {
+    background-color: #179ff9;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+}
+
+@media (max-width: 767px) {
+    .visible{
+        bottom: 10px;
+    }
+}

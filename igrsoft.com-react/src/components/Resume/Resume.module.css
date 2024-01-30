@@ -1,0 +1,47 @@
+.resume {
+    padding: 25px 0 125px 0;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.resume_content {
+    max-width: 1600px;
+    margin: 25px auto;
+    background-color: var(--main-bg-color);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume_button {
+    display: block;
+    margin: 25px auto;
+    background-color: var(--main-btn-color);
+    color: var(--second-txt-color);
+    padding: 10px 25px;
+    border-radius: 12px;
+}
+
+.resume_button:hover {
+    background-color: var(--second-txt-color);
+}
+
+.resume_link {
+    font-family: "SFProDisplay-Thin";
+    color: var(--third-txt-color);
+    font-size: var(--text-size);
+}
+
+
+.resume_link:hover,
+.resume_link:active,
+.resume_link:focus {
+    color: var(--third-txt-color);
+}
+
+.resume_img {
+    max-width: 850px;
+    justify-content: center;
+    object-fit: cover;
+}

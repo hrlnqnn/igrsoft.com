@@ -1,0 +1,12 @@
+.services {
+    background-color: var(--page-bg-color);
+    padding: 50px 0 150px 0;
+}
+
+.services_item {
+    background-color: var(--main-bg-color);
+}
+
+.overlay{
+    background: var(--main-bg-color);
+}

@@ -1,0 +1,55 @@
+.person {
+    padding: 50px 0 25px 0;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.person_content {
+    display: flex;
+    align-items: top;
+}
+
+.person_img {
+    display: block;
+    width: 320px;
+    height: 320px;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+
+.person_info {
+    background-color: var(--main-bg-color);
+    border-radius: 12px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "SFProDisplay-Medium";
+}
+
+.person_info:nth-first {
+    align-items: start;
+}
+
+.person_name {
+    font-size: 48px;
+    margin: 20px;
+    text-align: center;
+}
+
+.person_experience,
+.person_description {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.person_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.person_link {
+    margin: 0 10px;
+}

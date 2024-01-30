@@ -1,0 +1,145 @@
+@import-normalize;
+
+/*  font family
+==================================================*/
+
+@font-face {
+    font-family: "SFProDisplay-Thin";
+    src: url("./assets/fonts/SFProDisplay-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SFProDisplay-Light";
+    src: url("./assets/fonts/SFProDisplay-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SFProDisplay-Medium";
+    src: url("./assets/fonts/SFProDisplay-Medium.ttf") format("truetype");
+}
+
+/* CSS Variables
+==================================================*/
+:root {
+    --header-bg-color: rgb(245 245 247 / 50%);
+    --page-bg-color: #fff;
+    --main-bg-color: #f5f5f7;
+    --badge-top-color: #005bbb;
+    --badge-bottom-color: #ffd500;
+    --accent-color: #179ff9;
+    --main-btn-color: #1d1d1f;
+    --main-txt-color: #1d1d1f;
+    --second-txt-color: #515154;
+    --third-txt-color: #fff;
+    --lines: 1px solid #515154;
+    --nav-font-size: 18px;
+    --main-title-size: 35px;
+    --second-title-size: 32px;
+    --text-size: 18px;
+    --mobile-nav-text: 28px;
+}
+
+/* General
+==================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'SFProDisplay-Light';
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: var(--page-bg-color);
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    padding: 15px 5px;
+    color: var(--main-txt-color);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+.bigred {
+    font-size: 20px;
+    color: red;
+}

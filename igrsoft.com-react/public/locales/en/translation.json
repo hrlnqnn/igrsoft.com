@@ -1,0 +1,58 @@
+{
+    "navigation": {
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "about": "About"
+    },
+    "intro": {
+        "title": "15 years of Professional Software",
+        "title2": " development & ",
+        "title3": "Consulting services",
+        "text": "Find soft for your"
+    },
+    "portfolio_main": {
+        "software": "Software",
+        "releases": "Features releases",
+        "other": "Other",
+        "development": "Development",
+        "news": "News"
+    },
+    "portfolio_filter": {
+        "all": "All",
+        "desktop": "Desktop",
+        "mobile": "Mobile",
+        "tv": "TV & Home",
+        "other": "Other",
+        "archive":"Archive"
+    },
+    "services": {
+        "architecture": "Construct Architecture",
+        "architecture_description": "Blueprint application of any complexity to use latest tehnology and newest languages",
+        "design": "Design",
+        "design_description": "One application to iOS, ipadOS, macOS and tvOS with support of any devices resolutions",
+        "performance": "Performance",
+        "performance_description": "It's allways fast and use a little of memory, we are care about space on device",
+        "friendly": "User friendly",
+        "friendly_description": "No need use some tutorials and some helpers to use your application",
+        "localisation": "Localisation",
+        "localisation_description": "Application can support any languages, also we can translate it to Ukrainian",
+        "upgrage": "Upgrage",
+        "upgrage_description": "We can update your old application to use new features etc",
+        "order": "Order"
+    },
+    "about_company": {
+        "title": "About company",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "about": {
+        "name": "VITALII P.",
+        "experience": "Development experience: 15+ year",
+        "description": "I have started developt from firsts hackintoshs and moving by the Apple way since 2005 year.There are 20+ big projects has been done on current moment.And planing to create a lot of new exellent apps."
+    },
+    "contact": {
+        "contact_button": "CV / Resume"
+    },
+    "footer": {
+        "copyright": "IGR Software"
+    }
+}

@@ -1,0 +1,145 @@
+.products {
+    padding: 50px 0 150px 0;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: "SFProDisplay-Thin";
+}
+
+.products_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.products_title {
+    font-family: "SFProDisplay-Medium";
+    font-size: var(--second-title-size);
+    padding: 10px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.products_form {
+    border: var(--lines);
+    border-radius: 8px;
+    padding: 12px 43px 12px 12px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.form_button {
+    background-color: transparent;
+    align-content: center;
+    margin-right: 12px;
+    cursor: default;
+}
+
+.form_icon {
+    color: var(--second-txt-color);
+}
+
+.form_text {
+    font-size: var(--text-size);
+}
+
+.products_block{
+    border-top: var(--lines);
+    border-bottom: var(--lines);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.products_filter {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 25px 0;
+    font-size: 17px;
+}
+
+.products_toggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.products_toggle_text{
+    font-size: 17px;
+}
+
+
+.filter_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.filter_item:hover,
+.filter_item:active,
+.filter_item:focus {
+    color: var(--accent-color);
+}
+
+.filter_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: var(--lines);
+    padding: 8px;
+    margin: 0 20px 20px 20px;
+}
+
+.filter_img {
+    height: 32px;
+    width: 32px;
+}
+
+.products_list {
+    display: flex;
+    max-width: 980px;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+.products_item {
+    background-color: var(--main-bg-color);
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    margin: 15px;
+}
+
+.products_link{
+    display: block;
+    padding: 25px;
+    text-align: center;
+}
+
+.products_link:hover,
+.products_link:active,
+.products_link:focus{
+    color: var(--accent-color);
+}
+
+.products_image {
+    display: block;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.products_spinner {
+    margin: 0 auto;
+}
+
+

@@ -1,0 +1,19 @@
+
+.contacts_list {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts_link {
+    padding: 15px;
+}
+
+.contacts_link:hover,
+.contacts_link:active,
+.contacts_link:focus {
+color: var(--accent-color);
+transition: all 500ms ease; 
+}
+
